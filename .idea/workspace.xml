@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8044096e-f070-4049-8d0a-5ac2aa507e45" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson4/part1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson4/part2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson4/part3/Main.java" afterDir="false" />
+    <list default="true" id="8044096e-f070-4049-8d0a-5ac2aa507e45" name="Changes" comment="lesson 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/annotations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/annotations/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/io/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/nio/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -44,22 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678394063873</updated>
       <workItem from="1678394065012" duration="10510000" />
-      <workItem from="1678820185808" duration="18121000" />
+      <workItem from="1678820185808" duration="19342000" />
+      <workItem from="1679425889609" duration="15458000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1678628758438</created>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678628758438</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 4">
+      <created>1679002193113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679002193113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="lesson 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 4" />
   </component>
 </project>
