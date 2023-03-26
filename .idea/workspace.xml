@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8044096e-f070-4049-8d0a-5ac2aa507e45" name="Changes" comment="lesson 4">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="8044096e-f070-4049-8d0a-5ac2aa507e45" name="Changes" comment="init hibernate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson4/part1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson4/part2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson4/part3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/annotations/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/annotations/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/exceptions/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/io/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/nio/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +29,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Record" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hibernate" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -69,6 +89,7 @@
       <workItem from="1678394065012" duration="10510000" />
       <workItem from="1678820185808" duration="19342000" />
       <workItem from="1679425889609" duration="15458000" />
+      <workItem from="1679847064605" duration="13588000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1678628758438</created>
@@ -84,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679002193113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init hibernate">
+      <created>1679846644364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679846644364</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +122,7 @@
     <MESSAGE value="add" />
     <MESSAGE value="lesson 4" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="init hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="init hibernate" />
   </component>
 </project>
