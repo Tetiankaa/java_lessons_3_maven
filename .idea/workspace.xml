@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8044096e-f070-4049-8d0a-5ac2aa507e45" name="Changes" comment="lesson 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/annotations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/annotations/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/io/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson5_io_reflection/nio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +93,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <MESSAGE value="lesson 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 4" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
