@@ -65,6 +65,13 @@ public class User {
             // The joinColumns attribute specifies the foreign key column for the current entity (user_id_x), and the inverseJoinColumns attribute specifies the foreign key column for the related entity (car_id_x).
     )
     private List<Car> cars = new ArrayList<>();
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "user_sunglass",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns  = @JoinColumn(name = "sg_id")
+    )
+    private List<Sunglass> sunglass = new ArrayList<>();
 
     public User(String name, Passport passport, Gender gender) {
         this.name = name;

@@ -23,6 +23,7 @@ public class Main {
                 .addAnnotatedClass(Passport.class)
                 .addAnnotatedClass(Card.class)
                 .addAnnotatedClass(Car.class)
+                .addAnnotatedClass(Sunglass.class)
                 .getMetadataBuilder()
                 .build();
 
@@ -47,6 +48,21 @@ public class Main {
 //        session.createQuery("from User u", User.class)
 //                        .getResultList().forEach(user -> System.out.println(user));
 
+//        User user1  = new User();
+//        User user2 = new User();
+//        Sunglass sunglass1 = new Sunglass();
+//        Sunglass sunglass2 = new Sunglass();
+//
+//        session.save(user1);
+//        session.save(user2);
+//        session.save(sunglass1);
+//        session.save(sunglass2);
+//
+//        user1.getSunglass().add(sunglass1);
+//        user1.getSunglass().add(sunglass2);
+//
+//        user2.getSunglass().add(sunglass1);
+//        user2.getSunglass().add(sunglass2);
 
         session.getTransaction().commit();
 
