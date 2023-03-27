@@ -25,6 +25,17 @@ public class User {
     @Column(name = "user_name") //is used to map the entity's fields to columns in the database table.
     private String name;
 
+    @OneToOne(cascade =CascadeType.ALL,orphanRemoval = true,fetch = FetchType.LAZY) //It is used to specify that one entity has a single relationship with another entity.
+    @JoinColumn(name = "passport_id",referencedColumnName = "id") // "passport_id" -так буде називатись в таблиці. referencedColumnName = "id" - це посилання на клас Passport на його id
+    private Passport passport;
+    // -  CascadeType.ALL - This means that any operation performed on User (e.g., persist, update, delete) will be cascaded to Passport.
+    // In this case, if you persist User, Passport will also be persisted; if you delete User, Passport will also be deleted.
+    // - CascadeType.PERSIST -(save) to propagate the persistence operation from an entity to its associated entities.
+    // - CascadeType.MERGE -(update) When CascadeType.MERGE is specified for a particular relationship, it means that any changes made to the parent entity
+    // (the one that owns the relationship) will be automatically propagated to the child entity (the one that is related to the parent through the relationship) when the parent entity is merged into the persistence context.
+    //orphanRemoval = true - if one or more of these child entities are removed from the collection, they will no longer be referenced by the parent entity.
+    //If orphanRemoval is set to true, then these child entities will also be removed from the database.
+    //******************************************
     @ElementCollection(fetch = FetchType.LAZY) // is a JPA annotation that is used to specify a collection of basic types or embeddable objects in an entity class.
     private List<String> skills = new ArrayList<>();
       //By default, when a collection is mapped using @ElementCollection, the collection is loaded lazily(fetch = FetchType.LAZY), which means that the collection elements are not loaded from the database until they are actually accessed.
@@ -45,9 +56,15 @@ public class User {
     @CreationTimestamp
     private Date timestamp; // the "timestamp" field will be mapped to a database timestamp type with temporal precision up to milliseconds.
 
-    public User(String name, List<String> skills, Gender gender) {
+
+
+    public User(String name, Passport passport, Gender gender) {
         this.name = name;
-        this.skills = skills;
+        this.passport = passport;
         this.gender = gender;
+    }
+
+    public User(String name) {
+        this.name = name;
     }
 }
