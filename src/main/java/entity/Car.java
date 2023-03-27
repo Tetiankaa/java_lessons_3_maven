@@ -4,10 +4,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 @Getter
@@ -19,4 +16,12 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String model;
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "user_car",
+            joinColumns = @JoinColumn(name = "car_id_x"),//головний
+    inverseJoinColumns = @JoinColumn(name = "user_id_x") //другорядний
+    )
+    private User user;
 }

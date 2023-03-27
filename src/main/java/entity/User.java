@@ -60,8 +60,8 @@ public class User {
     @OneToMany(cascade = CascadeType.ALL)
     @JoinTable( //you can use @JoinTable to define the name of the join table and the names of the foreign key columns.
             name = "user_car",
-            joinColumns = @JoinColumn(name = "user_id_x"),
-            inverseJoinColumns = @JoinColumn(name = "car_id_x")
+            joinColumns = @JoinColumn(name = "user_id_x"), // головний
+            inverseJoinColumns = @JoinColumn(name = "car_id_x") // другорядний
             // The joinColumns attribute specifies the foreign key column for the current entity (user_id_x), and the inverseJoinColumns attribute specifies the foreign key column for the related entity (car_id_x).
     )
     private List<Car> cars = new ArrayList<>();
