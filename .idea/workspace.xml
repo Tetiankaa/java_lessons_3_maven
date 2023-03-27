@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8044096e-f070-4049-8d0a-5ac2aa507e45" name="Changes" comment="OneToOne">
+    <list default="true" id="8044096e-f070-4049-8d0a-5ac2aa507e45" name="Changes" comment="1 to N">
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Passport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hiber/lesson2_1to1" />
+        <entry key="$PROJECT_DIR$" value="hiber/lesson2_1toN" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679947691191</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1 to N">
+      <created>1679948418881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679948418881</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,7 @@
     <MESSAGE value="init hibernate" />
     <MESSAGE value="hibernate lesson 1" />
     <MESSAGE value="OneToOne" />
-    <option name="LAST_COMMIT_MESSAGE" value="OneToOne" />
+    <MESSAGE value="1 to N" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 to N" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 import com.mysql.cj.Query;
+import entity.Card;
 import entity.Gender;
 import entity.Passport;
 import entity.User;
@@ -23,6 +24,7 @@ public class Main {
         Metadata metadata = new MetadataSources(serviceRegistry)
                 .addAnnotatedClass(User.class)
                 .addAnnotatedClass(Passport.class)
+                .addAnnotatedClass(Card.class)
                 .getMetadataBuilder()
                 .build();
 
