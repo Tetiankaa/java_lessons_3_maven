@@ -27,6 +27,7 @@ public class User {
 
     @OneToOne(cascade =CascadeType.ALL,orphanRemoval = true,fetch = FetchType.LAZY) //It is used to specify that one entity has a single relationship with another entity.
     @JoinColumn(name = "passport_id",referencedColumnName = "id") // "passport_id" -так буде називатись в таблиці. referencedColumnName = "id" - це посилання на клас Passport на його id
+    @ToString.Exclude // щоб рекурсивно не викликалися ToString. Бо виходить що в класі User та в класі Passport визначено один і той самий метод.
     private Passport passport;
     // -  CascadeType.ALL - This means that any operation performed on User (e.g., persist, update, delete) will be cascaded to Passport.
     // In this case, if you persist User, Passport will also be persisted; if you delete User, Passport will also be deleted.
