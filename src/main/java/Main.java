@@ -1,8 +1,5 @@
 import com.mysql.cj.Query;
-import entity.Card;
-import entity.Gender;
-import entity.Passport;
-import entity.User;
+import entity.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
@@ -25,6 +22,7 @@ public class Main {
                 .addAnnotatedClass(User.class)
                 .addAnnotatedClass(Passport.class)
                 .addAnnotatedClass(Card.class)
+                .addAnnotatedClass(Car.class)
                 .getMetadataBuilder()
                 .build();
 

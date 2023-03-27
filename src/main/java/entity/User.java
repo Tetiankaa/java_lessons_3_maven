@@ -41,7 +41,7 @@ public class User {
     private List<String> skills = new ArrayList<>();
       //By default, when a collection is mapped using @ElementCollection, the collection is loaded lazily(fetch = FetchType.LAZY), which means that the collection elements are not loaded from the database until they are actually accessed.
     //
-    //However, in some cases, you may want to load the collection eagerly, i.e., load the collection elements from the database along with the owning entity.
+    //However, in some cases, you may want to load the collection eagerly, i.e., load the c ollection elements from the database along with the owning entity.
 
     @Enumerated(value = EnumType.STRING)
     private Gender gender;
@@ -57,7 +57,14 @@ public class User {
     @CreationTimestamp
     private Date timestamp; // the "timestamp" field will be mapped to a database timestamp type with temporal precision up to milliseconds.
 
-
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable( //you can use @JoinTable to define the name of the join table and the names of the foreign key columns.
+            name = "user_car",
+            joinColumns = @JoinColumn(name = "user_id_x"),
+            inverseJoinColumns = @JoinColumn(name = "car_id_x")
+            // The joinColumns attribute specifies the foreign key column for the current entity (user_id_x), and the inverseJoinColumns attribute specifies the foreign key column for the related entity (car_id_x).
+    )
+    private List<Car> cars = new ArrayList<>();
 
     public User(String name, Passport passport, Gender gender) {
         this.name = name;
